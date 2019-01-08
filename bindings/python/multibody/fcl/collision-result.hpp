@@ -47,7 +47,7 @@ namespace se3
           .def("addContact",&CollisionResult::addContact,bp::arg("contact"),"Adds one contact into result structure")
           .def("isCollision",&CollisionResult::isCollision,"Returns binary collision result")
           .def("numContacts",&CollisionResult::numContacts,"Returns the number of contacts found")
-          .def("numCostSources",&CollisionResult::numCostSources,"Returns the number of cost sources found")
+          //.def("numCostSources",&CollisionResult::numCostSources,"Returns the number of cost sources found")
           
           .def("clear",&CollisionResult::clear,"Clears the results obtained")
           
